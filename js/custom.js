@@ -220,7 +220,7 @@ owl.owlCarousel({
  // scroll Top 
     $(window).scroll(function () {
         var durotto = $(window).scrollTop(); 
-        $('abc').text(durotto);
+        $('.box-10').text(durotto);
 
         if (durotto > 400) {
             $('.arrow').fadeIn();
